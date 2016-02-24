@@ -22,6 +22,8 @@
 \documentclass[]{friggeri-cv} % Add 'print' as an option into the square bracket to remove colors from this template for printing
 \usepackage{pifont} 
 
+\usepackage{fontspec}
+
 \addbibresource{bibliography.bib} % Specify the bibliography file to include publications
 
 \begin{document}
@@ -53,7 +55,7 @@ magnetic resonance
 synthetic biology
 dna damage repair
 \section{programming}
-{\color{red} $\varheartsuit$} JavaScript
+{$\varheartsuit$} JavaScript
 Python, C++, PHP
 CSS3 \& HTML5
 \end{aside}
@@ -64,7 +66,7 @@ CSS3 \& HTML5
 
 \section{programming}
 
-\textbf{{python {\color{red}$\varheartsuit$}} :} scikit-learn, pandas, numpy, scipy, flask, matplotlib, cython  \\ \textbf{database:} mysql, mongodb, json, hdf \\ \textbf{matlab:} signal processing, optimization toolbox \\ \textbf{web:} html, javascript, d3.js  |  \textbf{general:} git, regex, linux
+\textbf{{python {$\varheartsuit$}} :} scikit-learn, pandas, numpy, scipy, flask, matplotlib, cython  \\ \textbf{database:} mysql, mongodb, json, hdf \\ \textbf{matlab:} signal processing, optimization toolbox \\ \textbf{web:} html, javascript, d3.js  |  \textbf{general:} git, regex, linux
 
 %----------------------------------------------------------------------------------------
 %	WORK EXPERIENCE SECTION
@@ -84,8 +86,9 @@ CSS3 \& HTML5
 {New York, NY}
 {\emph{Department of Radiology}
 \begin{itemize}
-\item Accelerated numerical simulation runtimes $\sim$10x  by implementing memoization algorithms to recognize and pre-cash simulation invariant systems of nonhomogeneous differential equations.
-\item Implemented L1-norm reconstruction algorithms that cut MRI scan time requirements by half.      
+\item Accelerated numerical simulation $\sim$10x by implementing memoization algorithms to recognize and pre-cash simulation invariant systems of nonhomogeneous differential equations.
+\item Implemented L1-norm reconstruction algorithms that cut MRI scan time requirements by half.  
+\item Created data fitting and optimization packages in MATLAB \& Pyton/Cython for finding constrained non-linear least squares solutions to experimental data containing unknown parameters.    
 \end{itemize}}
 
 \entry
@@ -104,7 +107,7 @@ CSS3 \& HTML5
 {Seattle, WA}
 {\emph{Institute for Protein Design}
 \begin{itemize}
-\item Implemented bilateral research collaborations in quantum science \& technology with the United Kingdom Ministry of Defence. 
+\item Developed a hybrid Na{\"i}ve Bayes and Simulated Annealing optimization approach as part of the commercial C++ package ROSETTA, for the design of the first generation of synthetic DNA-binding proteins. 
 \end{itemize}}
 
 %------------------------------------------------
